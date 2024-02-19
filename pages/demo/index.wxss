@@ -1,0 +1,7 @@
+/* index.wxss */
+.page {
+  padding: 10rpx;
+}
+.btn {
+  margin: 30rpx auto;
+}

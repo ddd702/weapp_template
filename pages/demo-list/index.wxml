@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<app>
+  <block wx:if="{{list.length||!isInit}}">
+    <view class="list">
+      <view class="item" wx:key="{{index}}" wx:for-index="index" wx:for-item="item" wx:for="{{list}}">
+        <van-image height="300rpx" width="300rpx" fit="contain" class="image" src="{{item.link}}" />
+      </view>
+    </view>
+    <loadingmore status="{{ currentLoadingMoreStatus }}" />
+  </block>
+  <empty wx:else />
+</app>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tab/我的icon-灰色</title>
+    <defs>
+        <radialGradient cx="0%" cy="50%" fx="0%" fy="50%" r="84.2564174%" gradientTransform="translate(0.000000,0.500000),scale(1.000000,0.500000),translate(-0.000000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#999999" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Tab/我的icon-灰色" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="蒙版" fill="#D8D8D8" opacity="0" x="0" y="0" width="48" height="48" rx="12"></rect>
+            <g id="编组-3" transform="translate(6.000000, 4.000000)">
+                <polygon id="路径-5" fill="url(#radialGradient-1)" opacity="0.5" points="18 2 18 20 23.2547501 18.1988875 27 14.3324357 27 9.12975145 25.9116508 5.49017703 22.5 2.64964019"></polygon>
+                <circle id="椭圆形" stroke="#808080" stroke-width="4" cx="18" cy="11" r="9"></circle>
+                <rect id="矩形" stroke="#808080" stroke-width="4" x="2" y="26" width="32" height="11" rx="5.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<view class="rect-wrap">
+  <view
+    class="rect"
+    wx:for="{{rects}}"
+    wx:key="index"
+    bind:tap="onLinkClick"
+    data-opts="{{item}}"
+    style="height:{{item.height}};width:{{item.width}};top:{{item.top}};left:{{item.left}};background-image:{{item.backgroundImage}}"
+  ></view>
+</view>

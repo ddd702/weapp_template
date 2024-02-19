@@ -1,0 +1,8 @@
+.list-loading-hint,
+.list-nomore {
+  font-size: 22rpx;
+  line-height: 1;
+  color: #cccccc;
+  text-align: center;
+  padding: 50rpx 0;
+}

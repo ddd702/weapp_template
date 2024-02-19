@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>支付成功-icon</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#90E895" offset="0%"></stop>
+            <stop stop-color="#49C14F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="客户端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10、拍品详情页/确认订单支付成功-24" transform="translate(-315.000000, -310.000000)">
+            <g id="编组-6" transform="translate(303.000000, 310.000000)">
+                <g id="tishi-chenggong" transform="translate(12.000000, 0.000000)">
+                    <path d="M60,120 C93.137085,120 120,93.137085 120,60 C120,26.862915 93.137085,0 60,0 C26.862915,0 0,26.862915 0,60 C0,93.137085 26.862915,120 60,120 Z" id="Oval-5-Copy" fill="url(#linearGradient-1)"></path>
+                    <path d="M86.9536311,37.7021615 C88.774977,35.8125916 91.7832686,35.7572852 93.6728385,37.5786311 C95.5051487,39.3447847 95.6126786,42.2270378 93.9567772,44.1230417 L93.7963689,44.2978385 L55.7225388,83.7978385 C53.931968,85.6554805 51.0008182,85.7365912 49.1112361,84.0223455 L48.9372059,83.8563745 L27.761036,62.6323209 C25.9073615,60.7744548 25.9107594,57.7656568 27.7686255,55.9119823 C29.5701925,54.1144798 32.453995,54.0632051 34.3173302,55.7557837 L34.488964,55.9195718 L52.242,73.713 L86.9536311,37.7021615 Z" id="▶️-copy" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

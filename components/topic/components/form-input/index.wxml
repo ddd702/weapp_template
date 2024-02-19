@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="topic-form-input" data-value="{{formValue}}">
+  <van-field
+    title-width="100%"
+    required="{{content.required}}"
+    use-button-slot="{{content.phoneBtn}}"
+    clearable
+    max="{{content.max}}"
+    min="{{content.min}}"
+    maxlength="{{content.maxlength}}"
+    model:value="{{ formValue }}"
+    autosize="{{autoSize}}"
+    placeholder="{{content.placeholder}}"
+    type="{{content.type}}"
+    label="{{content.label}}"
+    error-message="{{errMsg}}"
+    bind:blur="onFormValueChange"
+    readonly="{{content.phoneBtn}}"
+  >
+    <van-button
+      open-type="getPhoneNumber"
+      bind:getphonenumber="onGetPhone"
+      custom-style="width:200rpx;"
+      size="small"
+      type="primary"
+      slot="button"
+      wx:if="{{content.phoneBtn}}"
+    >
+      授权手机号
+    </van-button>
+  </van-field>
+</view>

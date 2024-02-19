@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<app style="background-color: {{bg}}">
+  <view class="page">
+    <topic wx:if="{{!!pageid}}" bind:topicCb="onTopicFetch" page-no="{{pageid}}" />
+  </view>
+</app>

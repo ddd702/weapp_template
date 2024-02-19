@@ -1,0 +1,25 @@
+<view class="topic-form-input">
+  <van-field
+    border="{{false}}"
+    use-input-slot
+    required="{{content.required}}"
+    name="checkboxGroup"
+    label="{{content.label}}"
+  >
+    <view slot="input">
+      <van-checkbox-group max="{{content.max}}" value="{{checkSelect}}" bind:change="onSelectChange">
+        <view class="checkbox-item" wx:for="{{content.checkList}}" wx:key="index">
+          <van-checkbox name="{{item.value}}" shape="square">{{ item.value }}</van-checkbox>
+          <input
+            class="checkbox-input"
+            value="{{inputArray[index].value}}"
+            data-index="{{index}}"
+            bind:change="onInputChange"
+            wx:if="{{item.appendInput}}"
+            placeholder="请输入{{item.value}}"
+          />
+        </view>
+      </van-checkbox-group>
+    </view>
+  </van-field>
+</view>

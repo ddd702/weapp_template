@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>缺省/暂无订单-icon</title>
+    <defs>
+        <linearGradient x1="50%" y1="7.44314495%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F3D4A3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="7.44314495%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F3D4A3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="7.44314495%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F3D4A3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="7.44314495%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#F3D4A3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="缺省/暂无订单-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="缺省/暂无评论-icon">
+            <rect id="矩形" fill="#FFFFFF" opacity="0" x="0" y="0" width="160" height="160"></rect>
+            <g id="编组" transform="translate(10.000000, 18.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" opacity="0.178415698" x="57" y="0" width="28" height="88"></rect>
+                <rect id="矩形备份" fill="url(#linearGradient-2)" opacity="0.178415698" x="78" y="11" width="18" height="75"></rect>
+                <rect id="矩形备份-2" fill="url(#linearGradient-2)" opacity="0.178415698" x="110" y="26" width="18" height="75"></rect>
+                <rect id="矩形备份-5" fill="url(#linearGradient-3)" opacity="0.099518532" x="122" y="60" width="18" height="41"></rect>
+                <rect id="矩形备份-6" fill="url(#linearGradient-3)" opacity="0.099518532" x="0" y="60" width="18" height="41"></rect>
+                <rect id="矩形备份-3" fill="url(#linearGradient-2)" opacity="0.118293838" x="12" y="33" width="18" height="75"></rect>
+                <rect id="矩形备份-4" fill="url(#linearGradient-2)" opacity="0.178415698" x="30" y="13" width="18" height="75"></rect>
+            </g>
+            <path d="M80,107 C120.292224,107 153.627296,123.687509 159.185579,145.398825 L0.814420738,145.398825 C6.37270354,123.687509 39.7077764,107 80,107 Z" id="形状结合" fill="url(#linearGradient-4)" opacity="0.178415698"></path>
+            <ellipse id="椭圆形" fill="#FDE9C8" opacity="0.410760789" cx="80" cy="123.266667" rx="32" ry="4.26666667"></ellipse>
+            <g id="编组-3" transform="translate(44.000000, 35.000000)">
+                <polygon id="矩形" fill="#FFFFFF" fill-rule="nonzero" points="68.6848073 0.891156463 68.6848073 69.8911565 2.68480726 69.8911565 2.68480726 21.7751646 25.4076415 0.891156463"></polygon>
+                <path d="M68.6848073,0.891156463 L68.6848073,69.8911565 L2.68480726,69.8911565 L2.68480726,21.7751646 L25.4076415,0.891156463 L68.6848073,0.891156463 Z M62.154,7.421 L27.952,7.421 L9.215,24.642 L9.215,63.36 L62.154,63.36 L62.154,7.421 Z" id="矩形" fill="#F3D4A3" fill-rule="nonzero"></path>
+                <rect id="矩形" fill="#F3D4A3" opacity="0.6" x="17.9229025" y="28.8" width="19.5918367" height="6.53061224"></rect>
+                <rect id="矩形备份-7" fill="#F3D4A3" opacity="0.6" x="17.9229025" y="41.8" width="31" height="6.53061224"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

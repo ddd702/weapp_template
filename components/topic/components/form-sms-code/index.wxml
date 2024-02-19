@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view>
+  <van-field
+    required="{{content.required}}"
+    clearable
+    maxlength="{{10}}"
+    model:value="{{formValue}}"
+    placeholder="{{content.placeholder}}"
+    label="{{content.label}}"
+    use-button-slot
+  >
+    <van-button bind:tap="onSubmit" slot="button" size="small" disabled="{{!canSend}}" type="primary">
+      {{ canSend ? content.btnText : sendText }}
+    </van-button>
+  </van-field>
+</view>

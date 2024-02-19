@@ -1,0 +1,8 @@
+/* index.wxss *//* index.wxss */
+.topic-notice-bar {
+  width: 100%;
+  overflow-x: hidden;
+}
+.placeholder {
+  height: var(--notice-bar-height,40px)
+}

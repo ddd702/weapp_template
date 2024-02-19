@@ -1,0 +1,24 @@
+var getFloat = function (num, point) {
+  return Number(num).toFixed(point);
+};
+var getKg = function (num) {
+  //把g转化为kg单位
+  return Number(num) / 1000;
+};
+var getCover = function (covers) {
+  if (!covers || covers !== '') {
+    return covers.toString().split(';')[0];
+  } else {
+    return '';
+  }
+};
+var getTrueLink = function (url) {
+  return 'https://asset.dstory.fun' + url;
+};
+
+module.exports = {
+  getKg: getKg,
+  getTrueLink: getTrueLink,
+  getFloat: getFloat,
+  getCover: getCover,
+};

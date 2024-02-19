@@ -1,0 +1,4 @@
+/* index.wxss */
+.app-main {
+  min-height: 100vh;
+}

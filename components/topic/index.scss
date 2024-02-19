@@ -1,0 +1,55 @@
+/* paeg.wxss *//* index.wxss */
+.topic-layout {
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  --field-label-color:#333;
+  --cell-display: block;
+  --cell-background-color:transparent;
+  --cell-line-height: 66rpx;
+
+}
+.form-input,.form-area,.form-picker,.form-datetime,.form-multi-check,.form-radio{
+  margin: 20rpx 0;
+}
+.topic-cell {
+  position: relative;
+}
+.err-cell{
+  height: 100vh;
+  color: #999;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
+.loading-cell{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction:column;
+}
+.dark {
+  --field-label-color:#eee;
+  --cell-value-color:#ddd;
+  --field-input-text-color: #ddd;
+  --cell-required-color:#ddd;
+  --field-error-message-color:#f25c61;
+  --radio-label-color:--field-input-text-color;
+  --checkbox-label-color:--field-input-text-color;
+  .van-cell--required::before{
+    color:#ddd;
+  }
+  .van-field__label,
+  .van-radio__label {
+    color: #eee;
+  }
+  .van-field__control,
+  .van-checkbox__label {
+    color: #ddd;
+  }
+}

@@ -1,0 +1,33 @@
+page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC',
+    'miui', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+
+  /* button */
+  --button-primary-background-color: #d3a65e;
+  --button-primary-border-color: #d3a65e;
+  --button-default-height: 45px;
+  --button-normal-font-size: 32rpx;
+
+  /* tabs */
+  --tabs-bottom-bar-color: #d3a65e;
+  --tabs-bottom-bar-height: 5px;
+  --tabs-bottom-bar-height: 5px;
+  --tabs-line-height: 88rpx;
+
+  /* 对话框 */
+  --dialog-message-font-size: 14px;
+  --dialog-has-title-message-text-color: #999999;
+
+  /* tabbar */
+  --tabbar-height: 98rpx;
+
+  --uploader-delete-icon-size: 24px;
+
+  /* custom variable */
+  --color-primary: #d3a65e;
+}
+
+@font-face {
+  font-family: 'din';
+  src: url('https://static.chali.tech/DIN-Alternate.woff');
+}

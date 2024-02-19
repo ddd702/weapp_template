@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<app style="background-color: {{bg}}">
+  <view class="page is-tabbar">
+    <topic bind:topicCb="onTopicFetch" page-no="daily20210816" />
+  </view>
+</app>

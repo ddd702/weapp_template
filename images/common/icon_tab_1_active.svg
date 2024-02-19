@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tab/发现icon-点亮</title>
+    <defs>
+        <radialGradient cx="0%" cy="50%" fx="0%" fy="50%" r="84.2564174%" gradientTransform="translate(0.000000,0.500000),scale(1.000000,0.500000),translate(-0.000000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#D3A65E" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Tab/发现icon-点亮" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tab/商城icon-灰色">
+            <rect id="蒙版" fill="#D8D8D8" opacity="0" x="0" y="0" width="48" height="48" rx="12"></rect>
+            <g id="编组-3" transform="translate(7.000000, 6.000000)">
+                <polygon id="路径-2" fill="url(#radialGradient-1)" opacity="0.3" points="17 0 17 34 34 34 34 12.1064453 27.0234375 6.35498047 19.3823242 0"></polygon>
+                <path d="M3.4936263,9.20793065 L12.4936263,3.07220705 C15.2120587,1.21892375 18.7879413,1.21892375 21.5063737,3.07220705 L30.5063737,9.20793065 C32.6921963,10.6981088 34,13.1725095 34,15.8179682 L34,27 C34,31.418278 30.418278,35 26,35 L8,35 C3.581722,35 3.57712375e-15,31.418278 0,27 L0,15.8179682 C1.45238159e-15,13.1725095 1.30780367,10.6981088 3.4936263,9.20793065 Z" id="矩形" stroke="#D3A65E" stroke-width="4"></path>
+            </g>
+        </g>
+        <rect id="矩形" fill="#D3A65E" x="22" y="24" width="4" height="10" rx="2"></rect>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<view>
+  <van-field
+    value="{{formValue}}"
+    autosize
+    required="{{content.required}}"
+    placeholder="{{content.placeholder}}"
+    label="{{content.label}}"
+    readonly
+    right-icon="arrow-down"
+    bind:tap="openPicker"
+  ></van-field>
+  <van-popup show="{{pickerVisible}}" bind:close="onClose" position="bottom">
+    <van-datetime-picker
+      value="{{selected}}"
+      type="{{content.type}}"
+      title="{{content.label}}"
+      min-date="{{minDate}}"
+      max-date="{{maxDate}}"
+      formatter="{{formatter}}"
+      bind:confirm="onConfirm"
+      bind:cancel="onClose"
+    />
+  </van-popup>
+</view>

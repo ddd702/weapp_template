@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>全局/默认头像</title>
+    <defs>
+        <circle id="path-1" cx="60" cy="60" r="60"></circle>
+        <filter x="-51.7%" y="-51.7%" width="203.3%" height="203.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.431372549   0 0 0 0 0.458823529   0 0 0 0 0.541176471  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-4" cx="60" cy="60" r="60"></circle>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EBEBEB" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-7" x="0" y="0" width="99" height="95" rx="47.5"></rect>
+    </defs>
+    <g id="全局/默认头像" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="蒙版" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g id="默认头像" filter="url(#filter-3)" mask="url(#mask-2)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <use id="椭圆形" fill="#BABABA" xlink:href="#path-4"></use>
+                <g id="编组" mask="url(#mask-5)">
+                    <g transform="translate(11.000000, 24.000000)" id="矩形">
+                        <g stroke-width="1" fill="none" transform="translate(0.000000, 49.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="蒙版" fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                        </g>
+                        <path d="M49,39 C53.5308359,39 57.3140834,42.454917 57.724286,46.9671457 L58.0946425,51.0410679 C58.5512637,56.0639003 54.8496181,60.505875 49.8267857,60.9624962 C49.5518989,60.9874859 49.2760204,61 49,61 C43.9564548,61 39.8678536,56.9113988 39.8678536,51.8678536 C39.8678536,51.5918332 39.8803677,51.3159548 39.9053575,51.0410679 L40.275714,46.9671457 C40.6859166,42.454917 44.4691641,39 49,39 Z" fill="#E0E0E0"></path>
+                        <rect fill="#FFFFFF" x="25" y="0" width="48" height="50" rx="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

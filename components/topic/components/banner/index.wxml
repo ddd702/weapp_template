@@ -1,0 +1,26 @@
+<view class="topic-banner" style="background:{{content.bg}};">
+  <swiper
+    bindchange="onChange"
+    indicator-active-color="#74adf9"
+    indicator-color="#eee"
+    class="swiper-box"
+    style="height:{{height}}px; padding:0 {{ content.lrPad }}rpx; "
+    indicator-dots="{{!content.numberType}}"
+    autoplay="{{true}}"
+    interval="{{content.duration}}"
+  >
+    <block wx:for="{{list}}" wx:key="img">
+      <swiper-item
+        style="border-radius:{{content.radius}}rpx;"
+        class="swiper-item"
+        bind:tap="onLinkClick"
+        data-opts="{{item}}"
+      >
+        <image mode="widthFix" class="swiper-img" src="{{item.img}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view wx:if="{{content.numberType}}" style="margin-right:{{content.lrPad}}rpx" class="custom-indicator">
+    {{ current + 1 }}/{{ content.list.length }}
+  </view>
+</view>

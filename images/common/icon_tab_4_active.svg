@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tab/我的icon-点亮</title>
+    <defs>
+        <radialGradient cx="0%" cy="50%" fx="0%" fy="50%" r="84.2564174%" gradientTransform="translate(0.000000,0.500000),scale(1.000000,0.500000),translate(-0.000000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#D3A65E" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Tab/我的icon-点亮" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tab/我的icon-灰色">
+            <rect id="蒙版" fill="#D8D8D8" opacity="0" x="0" y="0" width="48" height="48" rx="12"></rect>
+            <g id="编组-3" transform="translate(24.000000, 24.000000)"></g>
+        </g>
+        <g id="Tab/我的icon-灰色">
+            <rect id="蒙版" fill="#D8D8D8" opacity="0" x="0" y="0" width="48" height="48" rx="12"></rect>
+            <g id="编组-3" transform="translate(6.000000, 4.000000)">
+                <polygon id="路径-5" fill="url(#radialGradient-1)" opacity="0.3" points="18 2 18 20 23.2547501 18.1988875 27 14.3324357 27 9.12975145 25.9116508 5.49017703 22.5 2.64964019"></polygon>
+                <path d="M18,0 C24.0751322,0 29,4.92486775 29,11 C29,17.0751322 24.0751322,22 18,22 C11.9248678,22 7,17.0751322 7,11 C7,4.92486775 11.9248678,0 18,0 Z M18,4 C14.1340068,4 11,7.13400675 11,11 C11,14.8659932 14.1340068,18 18,18 C21.8659932,18 25,14.8659932 25,11 C25,7.13400675 21.8659932,4 18,4 Z" id="椭圆形" fill="#D3A65E" fill-rule="nonzero"></path>
+                <path d="M29,24 C32.8659932,24 36,27.1340068 36,31 L36,32 C36,35.8659932 32.8659932,39 29,39 L7,39 C3.13400675,39 0,35.8659932 0,32 L0,31 C0,27.1340068 3.13400675,24 7,24 L29,24 Z M29,28 L7,28 C5.40231912,28 4.09633912,29.24892 4.00509269,30.8237272 L4,31 L4,32 C4,33.5976809 5.24891996,34.9036609 6.82372721,34.9949073 L7,35 L29,35 C30.5976809,35 31.9036609,33.75108 31.9949073,32.1762728 L32,32 L32,31 C32,29.4023191 30.75108,28.0963391 29.1762728,28.0050927 L29,28 Z" id="矩形" fill="#D3A65E" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

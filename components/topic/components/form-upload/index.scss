@@ -1,0 +1,29 @@
+/* index.wxss */
+.topic-form-upload {
+  // margin: 10px 0;
+  padding:0 20rpx;
+  .tips{
+    font-size: 24rpx;
+    color: #999;
+    padding: 20rpx 0;
+  }
+}
+.file-cell{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.file-item{
+  margin-right: 20rpx;
+  position: relative;
+}
+.file-delete{
+  padding: 5rpx;
+  line-height: 1;
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  top:0rpx;
+  right: 0rpx;
+
+}

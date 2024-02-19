@@ -1,0 +1,29 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "proseWrap": "preserve",
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "ignore",
+  "ignorePath": ".prettierignore",
+  "jsxBracketSameLine": true,
+  "trailingComma": "all",
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": "*.wxml",
+      "options": { "parser": "html" }
+    },
+    {
+      "files": "*.wxss",
+      "options": { "parser": "css" }
+    },
+    {
+      "files": "*.wxs",
+      "options": { "parser": "babel" }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+<view class="topic-space" style="background:{{content.bg}};height:{{content.height}}rpx;">
+  <rects wx:if="{{content.rects&&content.rects.length>0}}" content="{{content}}" />
+</view>

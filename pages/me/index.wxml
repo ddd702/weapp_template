@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<app>
+  <topic page-no="dstory_me" />
+  <view class="page is-tabbar">
+    <van-button block round type="primary" wx:if="{{!hasLogin}}" bindtap="onLoginTWO">授权登录</van-button>
+    <block wx:else>
+      <view wx:if="{{userinfo.id}}" class="header" bindtap="onClickAvatar">
+        <van-image round fit="cover" width="100rpx" height="100rpx" src="{{userinfo.avatar}}" />
+        <text class="name">{{userinfo.nick_name}}</text>
+      </view>
+      <van-button block round type="primary" bindtap="onLoginOut" wx:if="{{userinfo.status>1}}">退出登录</van-button>
+    </block>
+    <view class="menus">
+      <van-cell
+        title="我的收藏"
+        icon="https://cdn.zcxnb.cn/upzone/1/20240112/ahmp7lgn0e.png"
+        is-link
+        wx:if="{{hasLogin}}"
+        link-type="navigateTo"
+        url="/pages/demo-list/index"
+      />
+      <van-cell
+        bind:click="openFeedback"
+        icon="https://cdn.zcxnb.cn/upzone/1/20240112/ilbogu5oob.png"
+        border="{{false}}"
+        title="意见反馈"
+        is-link
+      />
+    </view>
+  </view>
+</app>

@@ -1,0 +1,8 @@
+/* index.wxss */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  margin: 25rpx 30rpx;
+}

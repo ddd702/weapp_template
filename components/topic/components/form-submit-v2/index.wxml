@@ -1,0 +1,25 @@
+<view class="topic-form-btn">
+  <button
+    class="btn"
+    style="background-color:{{content.bg||'#58be6e'}};color: {{content.color||'#fff'}};"
+    bind:tap="onSubmit"
+    type="primary"
+  >
+    {{ content.label }}
+  </button>
+  <van-dialog
+    show="{{resultShow}}"
+    id="van-dialog"
+    use-slot
+    title="填写成功"
+    showCancelButton="{{ false }}"
+    confirm-button-text="确定并返回"
+    cancel-button-text="返回首页"
+    confirm-button-color="#D3A65E"
+    bind:confirm="onComfirm"
+  >
+    <view class="dialog-content">
+      <view class="title">{{ content.successTip||'感谢您的参与'}}</view>
+    </view>
+  </van-dialog>
+</view>

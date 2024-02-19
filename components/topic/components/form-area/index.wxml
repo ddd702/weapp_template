@@ -1,0 +1,21 @@
+<view>
+  <van-field
+    required="{{content.required}}"
+    value="{{formValueText}}"
+    autosize
+    placeholder="{{content.placeholder}}"
+    label="{{content.label}}"
+    readonly
+    right-icon="arrow-down"
+    bind:tap="openPicker"
+  ></van-field>
+  <van-popup show="{{pickerVisible}}" bind:close="onClose" position="bottom">
+    <van-area
+      columns-num="{{content.columnsNum||2}}"
+      title="{{content.label}}"
+      area-list="{{areaList}}"
+      bind:confirm="onConfirm"
+      bind:cancel="onClose"
+    />
+  </van-popup>
+</view>

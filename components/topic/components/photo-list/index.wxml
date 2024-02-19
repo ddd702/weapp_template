@@ -1,0 +1,31 @@
+<wxs src="/wxs/utils.wxs" module="T" />
+<view class="topic-photo-list" style="background-color:{{ content.bg }}">
+  <block wx:if="{{content.columnCount===1}}">
+    <image
+      data-item="{{photo}}"
+      date-index="{{index}}"
+      bindtap="viewPhoto"
+      mode="widthFix"
+      src="{{photo}}"
+      class="photo-col-1"
+      wx:for="{{content.photos}}"
+      wx:for-item="photo"
+      wx:key="photo"
+    />
+  </block>
+  <block wx:else>
+    <van-image
+      data-item="{{photo}}"
+      date-index="{{index}}"
+      bindtap="viewPhoto"
+      class="photo-col-more"
+      wx:for="{{content.photos}}"
+      wx:for-item="photo"
+      wx:key="photo"
+      src="{{T.getThumbnail(photo)}}"
+      width="{{content.columnCount===2?'45vw':'30vw'}}"
+      height="{{content.columnCount===2?'45vw':'30vw'}}"
+      fit="contain"
+    />
+  </block>
+</view>

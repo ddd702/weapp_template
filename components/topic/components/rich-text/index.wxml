@@ -1,0 +1,5 @@
+<view class="topic-rich-text" style="background:{{content.bg}};padding:{{content.padding}}px">
+  <block wx:if="{{content}}">
+    <mp-html content="{{content.text}}" />
+  </block>
+</view>

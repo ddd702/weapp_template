@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<!--index.wxml-->
+<view class="topic-notice-bar">
+  <view wx:if="{{content && visible}}" data-opts="{{content}}" bind:tap="onLinkClick" data->
+    <van-notice-bar
+      wrapable="{{content.wrapable}}"
+      leftIcon="{{content.icon}}"
+      text="{{content.text}}"
+      color="{{content.textColor}}"
+      background="{{content.bg}}"
+    />
+  </view>
+  <view wx:elif="{{!visible}}" class="placeholder"></view>
+</view>

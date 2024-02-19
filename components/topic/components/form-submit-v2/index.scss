@@ -1,0 +1,39 @@
+/* index.wxss */
+.topic-form-btn {
+  padding: 20rpx 40rpx;
+}
+
+.btn{
+  background-color: #58be6e;
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 90rpx;
+  outline: none;
+  border:none;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+}
+.dialog-content{
+  width: 100%;
+  text-align: center;
+  .tip{
+    color: #f43939;
+    font-size: 24rpx;
+  }
+  .title{
+    color: #777;
+    font-size: 28rpx;
+    padding:20rpx 0;
+    font-weight: bold;
+  }
+  .sale{
+    font-size: 30rpx;
+    font-weight: bold;
+    color: #1a1a1a;
+    padding: 20rpx 0;
+  }
+  .phone text{
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<app>
+  <view class="page is-tabbar">
+    <van-button block custom-class="btn" round type="primary" size="big" data-index="1" bindtap="onClick">
+      login组件
+    </van-button>
+    <van-button
+      block
+      custom-class="btn"
+      type="primary"
+      round
+      size="big"
+      data-url="https://dstory.fun"
+      data-index="2"
+      bindtap="onClick"
+    >
+      跳去webview
+    </van-button>
+    <van-button block custom-class="btn" type="primary" round size="big" data-index="3" bindtap="onClick">
+      给tabbar小红点
+    </van-button>
+    <van-button block custom-class="btn" type="primary" round size="big" data-index="4" bindtap="onClick">
+      去掉tabbar小红点
+    </van-button>
+    <van-button block custom-class="btn" type="primary" round size="big" data-index="5" bindtap="onClick">
+      给tabbar加数字
+    </van-button>
+    <van-button block custom-class="btn" type="primary" round size="big" data-index="6" bindtap="onClick">
+      给tabbar减数字
+    </van-button>
+    <van-button round block custom-class="btn" type="primary" size="big" data-index="7" bindtap="onClick">
+      要登录权限高的接口
+    </van-button>
+    <van-button
+      data-url="/pages/demo-list/index"
+      round
+      block
+      custom-class="btn"
+      type="primary"
+      size="big"
+      data-index="8"
+      bindtap="onClick"
+    >
+      列表demo
+    </van-button>
+  </view>
+</app>

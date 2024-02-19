@@ -1,0 +1,27 @@
+/* index.wxss */
+.topic-banner {
+  position: relative;
+  .custom-indicator {
+    position: absolute;
+    right: 10rpx;
+    bottom: 10rpx;
+    color: #fff;
+    padding: 2rpx 10rpx;
+    font-size: 26rpx;
+    border-radius: 10rpx;
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+.swiper-box{
+  width: 100%;
+  box-sizing: border-box;
+}
+.swiper-img{
+  display: block;
+  width: 100%;
+}
+.swiper-item{
+  display:flex;
+  overflow: hidden;
+  align-items: center;
+}

@@ -1,0 +1,4 @@
+<view class="app-main class" style="{{style}}">
+  <slot></slot>
+  <auth-login id="app-login" />
+</view>

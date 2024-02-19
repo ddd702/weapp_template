@@ -1,0 +1,25 @@
+/* index.wxss */
+.page {
+  height: 100vh;
+}
+
+.privacy-tip{
+  padding:70rpx 30rpx 10rpx 30rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+.privacy-link{
+  color: #007AFF;
+  text-decoration: none;
+  font-size: 32rpx;
+  text-align: center;
+}
+.privacy-btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  width: 100%;
+  height: 100rpx;
+  padding-bottom: calc(env(safe-area-inset-bottom)+30rpx);
+}

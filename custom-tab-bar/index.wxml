@@ -1,0 +1,36 @@
+<!--miniprogram/custom-tab-bar/index.wxml-->
+<view class="tab-bar" style="background-color:{{bg_color}};">
+  <view class="tab-bar-border" style="background-color:{{border_color||'#eee'}};"></view>
+  <view
+    wx:for="{{list}}"
+    wx:key="index"
+    class="tab-bar-item"
+    data-path="{{item.wxlink}}"
+    data-index="{{index}}"
+    bindtap="switchTab"
+  >
+    <view class="image-cell">
+      <view class="red-dot" wx:if="{{item.redDot}}"></view>
+      <view class="badge" wx:if="{{item.badge}}">{{item.badge>99?'99+':item.badge}}</view>
+      <block wx:if="{{item.icon_style}}">
+        <van-icon
+          size="23"
+          style="color:{{selected === index ? item.color_selected : item.color_unselected}};display:{{selected === index ? 'none':'block'}}; font-size:40rpx;"
+          name="{{item.icon_unselected}}"
+        />
+        <van-icon
+          size="23"
+          style="color:{{selected === index ? item.color_selected : item.color_unselected}};display:{{selected === index ? 'block':'none'}}; font-size:40rpx;"
+          name="{{item.icon_selected}}"
+        />
+      </block>
+      <block wx:else>
+        <image style="display:{{selected === index ? 'none':'block'}}" src="{{item.icon_unselected}}"></image>
+        <image style="display:{{selected === index ? 'block':'none'}}" src="{{item.icon_selected}}"></image>
+      </block>
+      <view style="color: {{selected === index ? item.color_selected : item.color_unselected}}">
+        {{item.link_name}}
+      </view>
+    </view>
+  </view>
+</view>

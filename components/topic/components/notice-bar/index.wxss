@@ -1,0 +1,5 @@
+/* index.wxss */
+.topic-notice-bar {
+  width: 100%;
+  overflow-x: hidden;
+}

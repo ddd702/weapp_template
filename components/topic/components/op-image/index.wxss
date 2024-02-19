@@ -1,0 +1,14 @@
+/* index.wxss */
+.topic-op-image {
+  position: relative;
+}
+.topic-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: height 0.1s ease-out 0.1s;
+}
+.placeholder {
+  height: 200rpx !important;
+  background-color: #eee;
+}

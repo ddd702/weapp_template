@@ -1,0 +1,16 @@
+{
+  "component": true,
+  "usingComponents": {
+    "op-image":"./components/op-image/index",
+    "t-rich-text":"./components/rich-text/index",
+    "banner":"./components/banner/index",
+    "space":"./components/space/index",
+    "form-input":"./components/form-input/index",
+    "form-radio":"./components/form-radio/index",
+    "form-picker":"./components/form-picker/index",
+    "form-area":"./components/form-area/index",
+    "form-multi-check":"./components/form-multi-check/index",
+    "form-datetime":"./components/form-datetime/index",
+    "notice-bar":"./components/notice-bar/index"
+  }
+}

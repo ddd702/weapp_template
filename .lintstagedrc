@@ -1,0 +1,5 @@
+{
+  "*.{wxml,js,wxs,wxss}": [
+    "prettier --write"
+  ]
+}

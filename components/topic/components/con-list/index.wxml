@@ -1,0 +1,47 @@
+<wxs src="/wxs/utils.wxs" module="T" />
+<view class="topic-con-list" style=" background:{{content.bg }}">
+  <block wx:if="{{content.style===1}}">
+    <view bind:tap="jumpToPage" data-item="{{item}}" wx:for="{{list}}" wx:key="index" class="con">
+      <view class="con-avatar">
+        <van-image
+          src="{{T.getThumbnail(item.cover)|| 'https://xzapi.chali.tech/static/upload/3/20230831/ezz3cs.png'}}"
+          width="60"
+          height="60"
+          fit="contain"
+        />
+      </view>
+      <view class="con-info">
+        <view class="con-title">{{item.name}}</view>
+        <view class="con-time">{{ item.create_time }}</view>
+      </view>
+    </view>
+  </block>
+  <view wx:else class="con-style-2">
+    <view class="con-col">
+      <view bind:tap="jumpToPage" data-item="{{item}}" wx:for="{{listA}}" wx:key="index" class="con-2">
+        <view class="con-avatar">
+          <image
+            mode="widthFix"
+            src="{{T.getThumbnail(item.cover)|| 'https://xzapi.chali.tech/static/upload/3/20230831/ezz3cs.png'}}"
+          />
+        </view>
+        <view class="con-info">
+          <view class="con-title">{{ item.name }}</view>
+        </view>
+      </view>
+    </view>
+    <view class="con-col">
+      <view bind:tap="jumpToPage" data-item="{{item}}" wx:for="{{listB}}" wx:key="index" class="con-2">
+        <view class="con-avatar">
+          <image
+            mode="widthFix"
+            src="{{T.getThumbnail(item.cover)|| 'https://xzapi.chali.tech/static/upload/3/20230831/ezz3cs.png'}}"
+          />
+        </view>
+        <view class="con-info">
+          <view class="con-title">{{item.name}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

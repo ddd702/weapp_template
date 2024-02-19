@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view
+  class="topic-layout {{config.color==='#000000'?'':'dark'}}"
+  style="background-color:{{config.bg}};background-image:{{config.bgImg?'url('+config.bgImg+')':'none'}}"
+>
+  <view class="topic-cell {{item.name}}" wx:for="{{layout}}" wx:key="index">
+    <op-image wx:if="{{item.name==='op-image'}}" content="{{item.content}}" />
+    <space wx:if="{{item.name==='space'}}" content="{{item.content}}" />
+    <!-- <form-input id="fitem-{{item.content.formKey}}" wx:if="{{item.name==='form-input'}}" content="{{item.content}}" />
+    <form-radio
+      bind:getFormValue="getFormValue"
+      id="fitem-{{item.content.formKey}}"
+      wx:if="{{item.name==='form-radio'}}"
+      content="{{item.content}}"
+    />
+    <form-picker
+      parent-ctx="{{formCtxTemp}}"
+      id="fitem-{{item.content.formKey}}"
+      wx:if="{{item.name==='form-picker'}}"
+      content="{{item.content}}"
+    /> -->
+    <!-- <form-area id="fitem-{{item.content.formKey}}" wx:if="{{item.name==='form-area'}}" content="{{item.content}}" />
+    <form-multi-check
+      id="fitem-{{item.content.formKey}}"
+      wx:if="{{item.name==='form-multi-check'}}"
+      content="{{item.content}}"
+    /> -->
+    <!-- <form-sms-code
+      id="fitem-{{item.content.formKey}}"
+      wx:if="{{item.name==='form-sms-code'}}"
+      content="{{item.content}}"
+      phone-data="{{smsCodeNeed}}"
+      bind:getPhoneData="onSmsCodeRequest"
+    /> -->
+    <!-- <form-datetime
+      id="fitem-{{item.content.formKey}}"
+      wx:if="{{item.name==='form-date-time'}}"
+      content="{{item.content}}"
+    /> -->
+    <notice-bar wx:if="{{item.name==='notice-bar'}}" content="{{item.content}}" />
+    <t-rich-text wx:if="{{item.name==='rich-text'}}" content="{{item.content}}" />
+    <banner wx:if="{{item.name==='banner'}}" content="{{item.content}}" />
+  </view>
+  <view class="loading-cell" wx:if="{{!layout.length&&!!!errMsg}}">
+    <loadingmore size="{{60}}" status="{{ currentLoadingMoreStatus }}"></loadingmore>
+  </view>
+  <view wx:if="{{!!errMsg}}" class="err-cell">
+    <van-image src="https://cdn.zcxnb.cn/upzone/1/20240105/2kts8trczg.gif" width="100" height="100" />
+    {{errMsg}}
+  </view>
+</view>

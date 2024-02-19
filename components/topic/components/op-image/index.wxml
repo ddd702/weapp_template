@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="topic-op-image" style="padding:0 {{content.lrPad||0}}rpx">
+  <block wx:if="{{content}}">
+    <rects wx:if="{{content.rects&&content.rects.length>0}}" content="{{content}}" />
+    <image
+      style="height:{{height}}px"
+      lazy-load="{{ true }}"
+      show-menu-by-longpress="{{true}}"
+      class="topic-image {{ loaded?'':'placeholder'}}"
+      src="{{content.img}}"
+      bind:load="onLoaded"
+    />
+  </block>
+</view>

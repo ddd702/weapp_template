@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="{{content.formKey === 'channel'&&!parentCtx?'hide':''}}">
+  <van-field
+    required="{{content.required}}"
+    value="{{selected}}"
+    autosize
+    placeholder="{{content.placeholder}}"
+    label="{{content.label}}"
+    readonly
+    right-icon="arrow-down"
+    bind:tap="openPicker"
+  ></van-field>
+  <van-popup show="{{pickerVisible}}" bind:close="onClose" position="bottom">
+    <van-picker
+      title="{{content.label}}"
+      show-toolbar
+      columns="{{columns}}"
+      bind:confirm="onConfirm"
+      bind:cancel="onClose"
+    />
+  </van-popup>
+</view>

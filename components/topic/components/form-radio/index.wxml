@@ -1,0 +1,11 @@
+<view class="topic-form-radio">
+  <van-field border="{{false}}" use-input-slot required="{{content.required}}" label="{{content.label}}">
+    <view slot="input">
+      <van-radio-group value="{{formValue}}" direction="vertical" bind:change="onFormValueChange">
+        <view class="checkbox-item" wx:for="{{content.checkList}}" wx:key="index">
+          <van-radio name="{{item.value}}">{{ item.value }}</van-radio>
+        </view>
+      </van-radio-group>
+    </view>
+  </van-field>
+</view>

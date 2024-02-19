@@ -1,0 +1,16 @@
+.empty-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - var(--tabs-line-height, 44px));
+}
+.empty-wrapper .empty-pic {
+  width: 160rpx;
+  height: 160rpx;
+}
+.empty-wrapper .empty-desc {
+  font-size: 24rpx;
+  line-height: 1;
+  color: #999999;
+}

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="topic-form-upload" data-value="{{formValue}}">
+  <view class="tips">{{ content.label }}</view>
+  <view class="file-cell">
+    <view class="file-item" wx:for="{{fileList}}" wx:key="index">
+      <van-image data-index="{{index}}" bind:click="viewFile" src="{{item}}" width="80" height="80" fit="contain" />
+      <view class="file-delete" bind:tap="delFile" data-index="{{index}}">
+        <van-icon name="cross" size="15" />
+      </view>
+    </view>
+    <van-uploader
+      wx:if="{{fileList.length<content.max}}"
+      use-before-read
+      bind:before-read="beforeRead"
+      max-count="{{content.max}}"
+      bind:after-read="afterRead"
+    />
+  </view>
+</view>

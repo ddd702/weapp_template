@@ -1,0 +1,38 @@
+{
+  "name": "d-wxapp",
+  "version": "0.0.1",
+  "private": true,
+  "description": "D-小程序",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged",
+    "prettier": "prettier --write --ignore-unknown ./**/*.{wxml,js,json,wxs,wxss}"
+  },
+  "dependencies": {
+    "@vant/area-data": "^1.1.1",
+    "@vant/weapp": "^1.6.8",
+    "dayjs": "^1.11.10",
+    "miniprogram-computed": "^4.0.4",
+    "mobx-miniprogram": "^4.13.2",
+    "mobx-miniprogram-bindings": "^2.0.0",
+    "mp-html": "^2.4.2",
+    "weapp-qrcode": "^1.0.0",
+    "wxmp-rsa": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "babel-jest": "^27.4.5",
+    "chokidar": "^3.5.3",
+    "fs-extra": "^10.0.1",
+    "husky": "^8.0.1",
+    "jest": "^27.4.5",
+    "lint-staged": "^13.0.1",
+    "miniprogram-ci": "^1.8.0",
+    "prettier": "2.7.1",
+    "shelljs": "^0.8.5"
+  }
+}

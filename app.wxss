@@ -1,0 +1,24 @@
+@import '/miniprogram_npm/@vant/weapp/common/index.wxss';
+@import '/styles/theme.wxss';
+@import '/styles/custom-tab-bar.wxss';
+
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.van-popup {
+  z-index: 1000 !important;
+}
+
+.fixed .van-tabs__wrap {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC',
+    'miui', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+  color: #333;
+}
