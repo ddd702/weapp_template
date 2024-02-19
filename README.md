@@ -41,7 +41,7 @@
 #### 1.验证提交信息
 
   提交信息要符合规格，不然提交不上去可参考以下链接的说明 
-- [代码管理](https://chali.yuque.com/ehova2/th6tok/vdk9nw/edit) 
+- [代码管理](https://qtcat.cn/post/155) 
 
 
 #### 2.格式化代码
